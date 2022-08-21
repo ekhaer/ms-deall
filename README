@@ -2,3 +2,8 @@ Step To Do:
 1. cd ms-auth, then `docker build -t ms-auth .`
 2. cd ms-user, then `docker build -t ms-user .`
 3. in the root folder, type `docker-compose up`
+4. hit this endpoint POST /seeding
+
+login with admin user, then perform CRUD to create another user
+username : Emilia
+password : test
